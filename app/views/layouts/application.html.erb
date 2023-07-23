@@ -1,19 +1,12 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>TestGuru</title>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>TestGuru</title>    
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
-
     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
-
-
-    <!-- Пробрасывает ошибку веб пакера ели раскоментировать код ниже, подскажите что делать -->
-    <%#= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
-
-
+    <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
 
   <body>
