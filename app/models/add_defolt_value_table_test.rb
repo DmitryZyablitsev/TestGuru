@@ -1,0 +1,2 @@
+class AddDefoltValueTableTest < ApplicationRecord
+end
