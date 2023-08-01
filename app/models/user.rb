@@ -15,4 +15,3 @@ class User < ApplicationRecord
     end
     resylt
   end
-end
